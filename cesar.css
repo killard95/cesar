@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+div {
+    margin: 5px 0 5px 0;
+}
+.input {
+    margin-left: 40%;
+}
+#text, #num {
+    width: 20%;
+    padding-left: 1%;
+    border-radius: 20px;
+    font-size: large;
+    background: linear-gradient(to right,white, cornflowerblue, cornflowerblue);
+}
+form {
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: cornflowerblue;
+    position: relative;
+    right: 60px;
+    border-radius: 0 20px 20px 0;
+    border-left: 0;
+    font-size: large;
+
+}
+#texte1, #texte2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: justify;
+}
+#texte1 {
+    color: red;
+}
+#texte2 {
+    color: green;
+}
+#explain, #reponse {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 2% 10% 2% 10%;
+}
